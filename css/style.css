@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=|Oswald|Kreon|Roboto+Slab:400,800|Roboto:400|Arvo|Caudex:wght@700&display=swap');
+
+body {
+    margin: 0;
+    background-color: #d3b67c;
+}
+
+
+.navbar {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #d3b67c;
+    -webkit-box-shadow: 0px 5px 17px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 17px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 17px -8px rgba(0,0,0,0.75);
+}
+
+.nav-titles {
+    margin: auto;
+    display: inline-flex;
+    justify-content: space-around;
+    background-color: #d3b67c;
+    width: 100%;
+    list-style-type: none;
+    height: 120px;
+    padding: 0;
+}
+
+.nav-titles li {
+    margin: 12.5px;
+}
+
+.nav-titles li a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+#logo {
+    font-family: "Cadeux", serif;
+    letter-spacing: 1.5px;
+    font-size: 75px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+#logo:hover {
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.lateral-box-container {
+    border: 2.5px solid #141414;
+    border-radius: 1px;
+    margin-top: 2px;
+    padding: 8px;
+    width: 180px;
+    height: 64.5px;
+    align-content: center;
+
+}
+
+.lateral-navbar-text {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 22.5px;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: justified;
+}
+
+.down-navbar-container {
+    margin: 0 80px;
+    border-top: 1.8px solid #141414;
+    border-bottom: 1.8px solid #141414;
+    text-align: center;
+}
+
+.down-navbar-text {
+    display: inline-block;
+    position: relative;
+    font-family: "Roboto Slab";
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.container {
+    background-color: #d3b67c;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.section-title {
+    font-family: "Arvo", serif;
+    font-size: 40px;
+    font-style: oblique;
+    text-transform: uppercase;
+    border-bottom: 1px solid #141414;
+}
+
+.first-page-container {
+
+}
+
+.arrow-slideshow {
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    cursor: pointer;
+    position: ;
+}
+
+.arrow-slideshow .fas {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 35px;
+}
+
+.first-page-container h1 {
+    font-family: "Arvo", serif;
+    font-size: 32.5px;
+    text-transform: uppercase;
+    font-style: oblique;
+}
+
+.first-page-desc-container {
+    display: flex; 
+}
+
+.first-page-img {
+    filter: sepia(50%);
+    border: 1.2px solid #141414;
+    border-radius: 1px;
+    max-height: 320px;
+    width: 585px;
+}
+
+.first-page-desc {
+    font-family: "Roboto", serif;
+    font-size: 17.5px;
+    letter-spacing: 1.25px;
+    font-weight: 300;
+    margin-left: 25px;
+    max-width: 420px;
+    max-height: 320px;
+    text-align: justify;
+
+}
+
+.first-page-desc a {
+    text-decoration: none;
+}
+
+footer > .down-navbar-container {
+    margin: 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+
+.footer-container > div {
+    max-width: 400px;
+    border-right: 2px solid #141414;
+    padding: 0 25px;
+}
+
+.footer-container > div > h4 {
+    font-family: "Oswald", serif;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+
+}
+
+.footer-desc {
+    text-align: justify;
+}
+.down-footer-container {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #141414;
+    padding-top: 30px;
+}
+
+#foot-logo {
+    max-height: 100px;
+
+}
+
+.down-footer-container span {
+    text-transform: uppercase;
+    font-family: "Arvo", serif;
+    padding-top: 32.5px;
+
+}
+
+.down-footer-container span > a {
+    color: #1a1a1a;
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+}
